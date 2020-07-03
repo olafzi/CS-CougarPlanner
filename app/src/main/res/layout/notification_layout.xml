@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/nameOfUserTV"
+        android:layout_width="wrap_content"
+        android:layout_height="31dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/nameinput"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/acceptButton"
+        android:layout_width="70dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:background="#6B9BEB"
+        android:text="Accept"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/declineButton"
+        android:layout_width="76dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:background="#6B9BEB"
+        android:text="Decline"
+        android:textSize="12sp" />
+</RelativeLayout>

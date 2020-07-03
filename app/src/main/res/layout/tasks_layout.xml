@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/taskrelativelayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/TaskNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/colorTV"
+        android:layout_toRightOf="@+id/colorTV"
+        android:background="#006B9BEB"
+        android:text="@string/task_name"
+        android:textColor="#505050"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TaskCourseTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TaskNameTextView"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/colorTV"
+        android:layout_toRightOf="@+id/colorTV"
+        android:background="#006B9BEB"
+        android:text="@string/task_course"
+        android:textColor="#808080"
+        android:textSize="15sp"
+        android:textStyle="normal|italic" />
+
+    <TextView
+        android:id="@+id/TaskNotesTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TaskCourseTextView"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/colorTV"
+        android:layout_toRightOf="@+id/colorTV"
+        android:background="#006B9BEB"
+        android:text="@string/task_notes"
+        android:textColor="#808080"
+        android:textSize="15sp"
+        android:textStyle="normal|italic" />
+
+    <TextView
+        android:id="@+id/taskDueTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TaskNotesTextView"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/colorTV"
+        android:layout_toRightOf="@+id/colorTV"
+        android:background="#006B9BEB"
+        android:text="@string/task_due_date"
+        android:textColor="#808080"
+        android:textSize="15sp"
+        android:textStyle="normal|italic" />
+
+    <TextView
+        android:id="@+id/taskPriorityTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/taskDueTextView"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/colorTV"
+        android:layout_toRightOf="@+id/colorTV"
+        android:background="#006B9BEB"
+        android:paddingBottom="10dp"
+        android:text="@string/task_prioirity"
+        android:textColor="#808080"
+        android:textSize="15sp"
+        android:textStyle="normal|italic" />
+
+    <TextView
+        android:id="@+id/colorTV"
+        android:layout_width="32dp"
+        android:layout_height="150dp" />
+
+
+</RelativeLayout>

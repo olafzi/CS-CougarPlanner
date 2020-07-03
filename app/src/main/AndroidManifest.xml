@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myfirstapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/cougarplanner"
+        android:label="Cougar Planner"
+        android:roundIcon="@drawable/cougarplanner"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+        <activity android:name=".ViewCourseActivity"></activity>
+        <activity android:name=".ViewFriendProfileActivity" />
+        <activity android:name=".CoursesTasksActivity" />
+        <activity android:name=".DeleteAccountActivity" />
+        <activity android:name=".ForgotPasswordActivity" />
+        <activity android:name=".VerifyEmailActivity" />
+        <activity android:name=".ViewEditCourseActivity" />
+        <activity android:name=".ViewEditTaskActivity" />
+        <activity android:name=".AddTaskActivity" />
+        <activity android:name=".ViewActivity" />
+        <activity android:name=".ScheduleActivity" />
+        <activity android:name=".FillProfileActivity" />
+        <activity android:name=".EditProfileActivity" />
+        <activity android:name=".AddCourseActivity" />
+        <activity android:name=".AddFriendActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

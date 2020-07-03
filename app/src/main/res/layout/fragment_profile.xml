@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".ProfileFragment">
+
+    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/ProfilePicImageView"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:contentDescription="@string/choose_profile_pic"
+        android:src="@drawable/profilepic"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.052"
+        tools:srcCompat="@drawable/profilepic" />
+
+    <Button
+        android:id="@+id/addFriendButton"
+        android:layout_width="36dp"
+        android:layout_height="35dp"
+        android:background="@drawable/addfriend"
+        app:layout_constraintBottom_toTopOf="@+id/courseButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.836"
+        app:layout_constraintStart_toEndOf="@+id/ProfilePicImageView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.191" />
+
+    <Button
+        android:id="@+id/AddCourseButton"
+        android:layout_width="29dp"
+        android:layout_height="29dp"
+        android:background="@drawable/addcourse"
+        app:layout_constraintBottom_toTopOf="@+id/courseButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.83"
+        app:layout_constraintStart_toEndOf="@+id/ProfilePicImageView"
+        app:layout_constraintTop_toBottomOf="@+id/addFriendButton"
+        app:layout_constraintVertical_bias="0.296" />
+
+    <Button
+        android:id="@+id/EditProfileButton"
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:background="@drawable/editprofile"
+        app:layout_constraintBottom_toTopOf="@+id/friendButton"
+        app:layout_constraintEnd_toStartOf="@+id/ProfilePicImageView"
+        app:layout_constraintHorizontal_bias="0.277"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.19999999" />
+
+    <Button
+        android:id="@+id/LogoutButton"
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:background="@drawable/logout"
+        app:layout_constraintBottom_toTopOf="@+id/friendButton"
+        app:layout_constraintEnd_toStartOf="@+id/ProfilePicImageView"
+        app:layout_constraintHorizontal_bias="0.27"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EditProfileButton"
+        app:layout_constraintVertical_bias="0.31" />
+
+    <TextView
+        android:id="@+id/NameTextView"
+        android:layout_width="106dp"
+        android:layout_height="26dp"
+        android:gravity="center"
+        android:text="@string/users_name"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ProfilePicImageView"
+        app:layout_constraintVertical_bias="0.02" />
+
+    <Button
+        android:id="@+id/friendButton"
+        android:layout_width="205.5dp"
+        android:layout_height="35dp"
+        android:background="#92BAE6"
+        android:text="@string/friends"
+        app:layout_constraintBottom_toTopOf="@+id/FriendRecyclerView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/NameTextView"
+        app:layout_constraintVertical_bias="0.99" />
+
+    <Button
+        android:id="@+id/courseButton"
+        android:layout_width="205.5dp"
+        android:layout_height="35dp"
+        android:background="#92BAE6"
+        android:text="@string/courses"
+        app:layout_constraintBottom_toTopOf="@+id/FriendRecyclerView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/NameTextView"
+        app:layout_constraintVertical_bias="0.99" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/FriendRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="353dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/NameTextView"
+        app:layout_constraintVertical_bias="0.486" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/CourseRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="353dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/NameTextView"
+        app:layout_constraintVertical_bias="0.486" />
+
+    <TextView
+        android:id="@+id/tv_no_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:gravity="center"
+        android:text="No Courses"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="#6B9BEB"
+        android:textSize="24sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.61" />
+
+    <TextView
+        android:id="@+id/tv_no_data2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:gravity="center"
+        android:text="You have no friends :("
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="#6B9BEB"
+        android:textSize="24sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.61" />
+</androidx.constraintlayout.widget.ConstraintLayout>

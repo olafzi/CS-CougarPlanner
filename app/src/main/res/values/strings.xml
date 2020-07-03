@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">My First App</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="logout">Logout</string>
+    <string name="welcome_you_are_logged_in">Welcome! You are logged in!</string>
+    <string name="tasks_due_today">Tasks Due Today</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dashboard_fragment">Dashboard Fragment</string>
+    <string name="schedule">Schedule</string>
+    <string name="profile">profile</string>
+    <string name="task_here">TASK HERE</string>
+    <string name="edit_profie">Edit Profie</string>
+    <string name="users_name">Users Name</string>
+    <string name="friend_fragment">Friend Fragment</string>
+    <string name="course_fragment">Course Fragment</string>
+    <string name="friends">Friends</string>
+    <string name="courses">Courses</string>
+    <string name="friendName">Friend Name</string>
+    <string name="courseName">Course Name</string>
+    <string name="add_friend">Add Friend</string>
+    <string name="search_user">Search User</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="save_profile">Save Profile</string>
+    <string name="username">Username</string>
+    <string name="name">Name:</string>
+    <string name="usernamedot">Username:</string>
+    <string name="nameinput">Name</string>
+    <string name="graduation_date">Graduation Date</string>
+    <string name="graduation_datedot">Graduation Date:</string>
+    <string name="currentyear">CurrentYear</string>
+    <string name="current_year">Current Year:</string>
+    <string name="university">University</string>
+    <string name="date_of_birth">Date Of Birth</string>
+    <string name="universitydot">University:</string>
+    <string name="dob">DOB:</string>
+    <string name="password">Password</string>
+    <string name="passworddot">Password:</string>
+    <string name="your_profile">Your Profile</string>
+    <string name="daily_view">Daily View</string>
+    <string name="weekly_view">Weekly View</string>
+    <string name="monthly_view">Monthly View</string>
+    <string name="semesterly_view">Semesterly View</string>
+    <string name="all_fields_need_to_be_filled_out_check_before_saving">All fields need to be filled out. Check before saving.</string>
+    <string name="fill_out_your_profile_here">Fill out your profile here:</string>
+    <string name="cancel">cancel</string>
+    <string name="instructor_name">Instructor Name</string>
+    <string name="meeting_days">Meeting Days</string>
+    <string name="please_fill_out_the_following_fields">Please fill out the following fields:</string>
+    <string name="color">Color:</string>
+    <string name="instructor">Instructor:</string>
+    <string name="name_of_course">Name of Course:</string>
+    <string name="meeting_days_dot">Meeting Days:</string>
+    <string name="name_of_course_input">Name Of Course</string>
+    <string name="add_course">Add Course</string>
+    <string name="change_view" />
+    <string name="email">Email</string>
+    <string name="todo">TODO</string>
+    <string name="task_name">Task Name</string>
+    <string name="task_course">Task Course</string>
+    <string name="task_due_date">Task Due Date</string>
+    <string name="task_notes">Task Notes</string>
+    <string name="task_prioirity">Task Prioirity</string>
+    <string name="view_schedule">View Schedule</string>
+    <string name="colorinput">Color</string>
+    <string name="choose_profile_pic">Choose Profile Pic</string>
+    <string name="edit_your_profile_here">Edit your profile here</string>
+    <string name="app_icon">App Icon</string>
+    <string name="no_tasks_due_today">No Tasks Due Today</string>
+    <string name="friend_email">Friend Email</string>
+    <string-array name="Colors">
+        <item>Choose a color</item>
+        <item>Pink</item>
+        <item>Red</item>
+        <item>Orange</item>
+        <item>Yellow</item>
+        <item>Green</item>
+        <item>Cyan</item>
+        <item>Azure</item>
+        <item>Blue</item>
+        <item>Violet</item>
+        <item>Magenta</item>
+    </string-array>
+
+    <string-array name="PriorityLevel">
+        <item>Priority Level</item>
+        <item>Low</item>
+        <item>Medium</item>
+        <item>High</item>
+    </string-array>
+
+    <string-array name="CurrentYear">
+        <item>Current Year</item>
+        <item>Freshman</item>
+        <item>Sophomore</item>
+        <item>Junior</item>
+        <item>Senior</item>
+
+
+    </string-array>
+</resources>
